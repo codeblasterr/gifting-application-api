@@ -1,0 +1,14 @@
+{
+  "name": "gifting-server",
+  "version": "1.0.0",
+  "description": "Database for gifting application",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "scripts": {
+    "prestart": "node createMockDb.js",
+    "start": "node apiServer.js"
+  },
+  "author": "Bernard Xavier",
+  "license": "MIT"
+}

@@ -1,9 +1,9 @@
-const categories = require("./Data/Categories");
-const giftCards = require("./Data/GiftCardMockData");
-const commentsReviews = require("./Data/CommentsReviews");
-const brands = require("./Data/BrandsData");
-const users = require("./Data/UserData");
-const userGifts = require("./Data/UserGifts");
+const categories = require("./Categories");
+const giftCards = require("./GiftCardMockData");
+const commentsReviews = require("./CommentsReviews");
+const brands = require("./BrandsData");
+const users = require("./UserData");
+const userGifts = require("./UserGifts");
 
 const user_gifts = userGifts;
 const comments_reviews = commentsReviews;
